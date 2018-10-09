@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Node module to assemble webcomponents out of a given path.",
   "main": "index.js",
-  "dependencies": {
-    "flat-node-dependencies": "git+https://github.com/burnhardx/flat-node-dependencies.git"
-  },
   "bin":"src/bin/assembleAll.js",
   "scripts": {
     "test": "mocha"
@@ -21,7 +18,8 @@
   },
   "homepage": "https://github.com/burnhardx/assemble-components#readme",
   "dependencies":{
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "flat-node-dependencies": "git+https://github.com/burnhardx/flat-node-dependencies.git"
   },
   "devDependencies": {
     "chai": "^4.2.0",
