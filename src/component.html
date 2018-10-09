@@ -1,0 +1,9 @@
+    <% Object.keys(dependencies).forEach(function(dependencyName) {%>
+        import {default as <%=dependencyName%>} from './../dependencies/<%=dependencyName%>.js'
+        <% }) %>
+        <%=script%>
+    if (!window.customElements) {
+        customElements.define('<%=tagName%>', <%=className%>);
+    } else {
+        window.customElements.define('<%=tagName%>', <%=className%>);
+    }
