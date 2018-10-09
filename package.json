@@ -6,9 +6,7 @@
   "dependencies": {
     "flat-node-dependencies": "git+https://github.com/burnhardx/flat-node-dependencies.git"
   },
-  "bin":{
-    "assembleAll":"src/bin/assembleAll.js "
-  },
+  "bin":"src/bin/assembleAll.js",
   "scripts": {
     "test": "mocha"
   },
